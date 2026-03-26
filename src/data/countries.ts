@@ -336,7 +336,7 @@ export const COUNTRIES: CountryData[] = [
     employees: 1,
     currency: "EUR",
     pension: {
-      legalRetirementAge: "66 ans (depuis le 01/01/2025, nés à partir du 01/01/1960). Passera à 67 ans en 2030. Anticipée : 63 ans avec 42 ans de carrière.",
+      legalRetirementAge: "66 ans (depuis le 01/02/2025, nés 01/01/1960 – 31/12/1963). Passera à 67 ans le 01/02/2030 (nés à partir du 01/01/1964). Anticipée : 63 ans avec 42 ans de carrière.",
       earlyRetirementAge: "63 ans (42 ans de carrière) ou 60-61 ans avec carrières plus longues",
       contributionRateEmployee: "13,07% (cotisation globale incluant retraite, santé, chômage)",
       contributionRateEmployer: "~25% (cotisation patronale globale, après réductions structurelles)",
@@ -345,7 +345,7 @@ export const COUNTRIES: CountryData[] = [
       pillar2: "Assurance groupe / Fonds de pension (LPC/WAP 2003) — NON obligatoire au niveau individuel MAIS beaucoup de commissions paritaires sectorielles l'imposent. ~75% des salariés couverts. Rendement garanti minimum : 2,50% depuis 01/01/2025.",
       pillar2Mandatory: false,
       pillar3: "Épargne-pension individuelle : avantage fiscal ~30% sur max 1 020 € ou 1 310 €/an.",
-      minimumPension: "€1 738/mois brut (ménage) / €1 390/mois (isolé) — 2024, carrière complète",
+      minimumPension: "€1 773,35/mois (isolé, carrière complète 2025). Ménage : proportionnellement plus élevé.",
       sources: [
         "Partena Professional — Retirement age 66 in 2025",
         "SFPD — Service fédéral des Pensions (sfpd.fgov.be)",
