@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --timotion-blue: #0056b3;
+  --timotion-dark: #1a1a2e;
+  --timotion-orange: #e8842c;
+  --dairia-navy: #1e2d3d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+@media print {
+  .no-print { display: none !important; }
+}
